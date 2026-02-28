@@ -138,7 +138,7 @@ const reply = (text) => conn.sendMessage(from, { text }, { quoted: mek })
 // ================= MENU =================
 if (command === "menu") {
 return reply(
-`╭━━━〔 ${botName} MENU 〕━━━╮
+`╭━━━〔 ${ZENITSU-XD} MENU 〕━━━╮
 ┃ 🏓 .ping
 ┃ 👑 .owner
 ┃ ⚡ .alive
