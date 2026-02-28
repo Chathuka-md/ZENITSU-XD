@@ -1,0 +1,28 @@
+{
+  "name": "zenitsu-xd",
+  "version": "1.0.0",
+  "description": "ZENITSU-XD - WhatsApp Bot created by Chathuka Dinujaya",
+  "main": "index.js",
+  "author": "Chathuka Dinujaya",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name zenitsu-xd",
+    "stop": "pm2 stop zenitsu-xd",
+    "restart": "pm2 restart zenitsu-xd"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "util": "^0.12.4",
+    "express": "latest",
+    "axios": "^1.2.5",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "megajs": "^1.1.0",
+    "vm": "^0.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
